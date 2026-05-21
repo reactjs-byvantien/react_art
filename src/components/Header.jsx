@@ -39,10 +39,10 @@ const StyledHeader = styled.header`
 
 export default function Header() {
   return (
-    <StyledHeader>
+    <header class="flex flex-col items-center justify-center mt-8 mb-8 md:mb-16">
       <img src={logo} alt="A canvas" />
       <h1>ReactArt</h1>
       <p className={styles.paragraph}>A community of artists and art-lovers.</p>
-    </StyledHeader>
+    </header>
   );
 }
